@@ -23,13 +23,13 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
     "prettier -w 'src/**/*.ts*'",
 
-### `yarn prettify`
+### `yarn typecheck`
 
-    "typecheck": "tsc",
+    "tsc",
 
 ### `yarn lint`
 
-    "lint": "eslint . --ext .ts --ext .tsx"
+    "eslint . --ext .ts --ext .tsx"
 
 ### `yarn build`
 
