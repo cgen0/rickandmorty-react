@@ -47,13 +47,16 @@ function Card(props: CharacterComplete) {
             </div>
           )}
           <EpisodeComponent {...props.episode[0]} />
-
-          <button
-            className={`${!showMore ? "show" : "hidden"}`}
-            onClick={handleClick}
-          >
-            Full Episode List
-          </button>
+          {props.episode.length > 1 ? (
+            <button
+              className={`${!showMore ? "show" : "hidden"}`}
+              onClick={handleClick}
+            >
+              Full Episode List
+            </button>
+          ) : (
+            ""
+          )}
         </div>
 
         <div className={`card card-back ${showMore ? "show" : "hidden"}`}>
