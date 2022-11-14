@@ -11,8 +11,6 @@ export function addSrc(src: string) {
   return function (img: HTMLImageElement) {
     if (img) {
       img.src = src;
-    } else {
-      console.log("not an image");
     }
   };
 }
