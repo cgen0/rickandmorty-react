@@ -1,6 +1,6 @@
 # Rick & Morty API ReactJs Web App
 
-Demo available on [Netlify](https://rickandmortyapi-reactjs.netlify.app).
+Demo available on [Netlify](https://rickandmortyapi-react-demo.netlify.app).
 
 ## Available Scripts
 
